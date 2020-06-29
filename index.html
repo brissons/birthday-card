@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Happy Birthday Michael</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/all.min.css"> <!-- Font Awesome 5 -->
+		<link rel="icon" type="image/png" href="favicon/love.png"> <!-- Love icon by Icons8 -->
+	</head>
+	<body>
+		
+		<!-- Audio and audio controls -->
+		<i id="volume-toggle" class='fas fa-volume-up fa-3x'></i>
+
+		<audio id="nature-sounds" class="audio-source" autoplay>
+		  <source src="audio/brook.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="secret-message" class="audio-source">
+		  <source src="audio/secret-message.mp3" type="audio/mpeg">
+		</audio>
+		
+		<!-- Loader and loading screen -->
+		<div id="loading-screen">
+			<div id="loader"></div>
+		</div>
+
+		<!-- Usability instructions -->
+		<div id="control-instructions"> 
+			<svg id="mouse-clicks" enable-background="new 0 0 512.005 512.005" viewBox="0 0 512.005 512.005" xmlns="http://www.w3.org/2000/svg"><g><path d="m449.627 89.942c-3.482-7.518-12.398-10.791-19.915-7.31l-50.817 23.529c-7.518 3.481-10.79 12.396-7.309 19.914 2.536 5.478 7.957 8.701 13.621 8.701 2.109 0 4.253-.447 6.293-1.392l50.817-23.529c7.518-3.48 10.79-12.395 7.31-19.913z"/><path d="m375.624 74.116 21.297-53.57c3.061-7.698-.699-16.42-8.397-19.48-7.702-3.062-16.421.7-19.479 8.397l-21.297 53.571c-3.061 7.698.699 16.42 8.397 19.48 1.818.723 3.692 1.065 5.536 1.065 5.964 0 11.606-3.582 13.943-9.463z"/><path d="m466.429 175.164-52.571-19.296c-7.781-2.856-16.396 1.135-19.25 8.913-2.854 7.777 1.136 16.395 8.912 19.25l52.571 19.296c1.706.626 3.451.923 5.168.923 6.111 0 11.854-3.764 14.082-9.836 2.854-7.777-1.136-16.395-8.912-19.25z"/><ellipse cx="187.742" cy="184.005" rx="17" ry="25"/><path d="m35.742 303.005v65.043c.112 39.243 14.906 75.621 41.657 102.432 26.729 26.79 62.915 41.527 101.9 41.526.146 0 .297 0 .442-.001h16 .043c39.21-.112 75.431-14.927 101.989-41.715 26.53-26.76 41.08-63.1 40.968-102.285v-65z"/><path d="m311.789 86.168c-16.054-13.654-37.278-21.164-59.758-21.164-.096 0-.194 0-.289 0h-49v66.889c18.58 7.344 32 27.921 32 52.111s-13.42 44.767-32 52.111v36.889h136v-129.042c-.064-22.541-9.637-43.066-26.953-57.794z"/><path d="m140.742 184.005c0-24.19 13.42-44.767 32-52.111v-66.889h-49.043c-49.447.142-88.083 34.862-87.957 79v129h137v-36.889c-18.58-7.345-32-27.922-32-52.111z"/></g></svg>
+		</div>
+
+		<script src="js/three.min.js"></script>
+		<script src="js/inflate.min.js"></script>
+		<script src="js/FBXLoader.js"></script>
+		<script src="js/birthday.js"></script>
+	</body>
+</html>
