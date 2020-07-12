@@ -16,6 +16,3 @@ The application is hosted on GitHub pages [here](https://brissons.github.io/birt
 * [SketchFab](https://sketchfab.com/3d-models/fruitcake-3december-dd4b4cdb343742b68982e746805b112c) - Cake model
 * [Vertexcat](https://vertexcat.itch.io/vertex-color-trees-set) - Tree models
 * [Everything Library!](https://davidoreilly.itch.io/everything-library-animals) - Animal Models
-* Candles
-* Rocks
-* Mushroom
