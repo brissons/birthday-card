@@ -1,4 +1,8 @@
 
+<p align="center"> 
+  <img src="birthday-example.gif">
+</p>
+
 # birthday-card
 
 > An interactive 3D model using three.js. Happy 31st birthday Michael!
